@@ -1,0 +1,99 @@
+body
+{
+    background-image: url("background.jpg");
+    background-size: cover;
+    
+}
+
+*
+{
+    box-sizing: border-box;
+    font-family:'Yusei Magic', sans-serif;
+}
+
+#contenitore
+{
+  width:1200px;
+  height:800px;
+  border:0px solid black;
+  border-radius: 5px;
+  margin: 20px auto;
+  background-color:rgba(28,28,28,0.5)
+}
+
+header>img
+{
+  width:200px;
+  padding-top: 20px;
+
+}
+
+header
+{
+    text-align: center;
+    
+}
+
+header>h1
+{
+    font-size: 38px;
+    color: rgb(171, 204, 31);
+}
+
+nav>div
+{
+    width: 570px;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    border:1px solid rgb(171, 204, 31);
+    background-color:  rgb(171, 204, 31);
+    text-align: center;
+    margin-top:15px;
+    
+}
+
+main
+{
+    width: 570px;
+    margin: 0px auto 0px auto;
+    color:white;
+}
+
+.quadratino
+{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    border: 1px solid white;
+    border-radius: 30%;
+    background-color: black;
+    display: inline-block;
+    background-color: white;
+}
+
+#barra_gino
+{
+    width: 210px;
+    height: 20px;
+    border:1px solid orange;
+    border-radius: 5px;
+    background-color: orange;
+}
+
+#barra_mike
+{
+    width: 280px;
+    height: 20px;
+    border:1px solid green;
+    border-radius: 5px;
+    background-color: green;
+}
+
+#barra_fede
+{
+    width: 150px;
+    height: 20px;
+    border:1px solid red;
+    border-radius: 5px;
+    background-color: red;
+}
